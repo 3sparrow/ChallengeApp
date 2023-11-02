@@ -1,6 +1,6 @@
 ﻿string name = "Ewa";
 var sex = "men" ;
-int age = 66;
+int age = 33;
 
 if
     (sex == "women" && age < 30)
@@ -16,7 +16,7 @@ else if (sex == "men" && age < 18)
     {
         Console.WriteLine("Niepełnoletni mężczyzna");
     }
-else if (sex == "women" || sex == "men" && age > 65)
+else if (age > 65)
     {
         Console.WriteLine("Człowiek na emeryturze");
     }
